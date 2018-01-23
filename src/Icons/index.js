@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'react'; // eslint-disable-line
 import toReactComponent from 'svgr.macro';
 
 const { DoneBlack, Autorenew } = toReactComponent(
