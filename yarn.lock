@@ -1735,7 +1735,7 @@ commander@2.12.x:
   version "2.12.2"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.12.2.tgz#0f5946c427ed9ec0d91a46bb9def53e54650e555"
 
-commander@^2.12.2, commander@~2.13.0:
+commander@^2.12.2, commander@^2.13.0, commander@~2.13.0:
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.13.0.tgz#6964bca67685df7c1f1430c584f07d7597885b9c"
 
@@ -5916,7 +5916,7 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@^1.9.1:
+prettier@^1.10.2, prettier@^1.9.1:
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.10.2.tgz#1af8356d1842276a99a5b5529c82dd9e9ad3cc93"
 
@@ -7175,14 +7175,14 @@ svgo@^1.0.3:
     unquote "^1.1.0"
     util.promisify "~1.0.0"
 
-svgr.macro@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/svgr.macro/-/svgr.macro-1.0.0.tgz#7ffecddbf8f386c6a377eb1eb4b3c1524cb0db66"
+svgr.macro@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/svgr.macro/-/svgr.macro-1.0.1.tgz#2c6255e8137b1c41db388b9f939586d0f7b56356"
   dependencies:
     babel-plugin-macros "2.0.0"
     babylon "6.18.0"
     glob "7.1.2"
-    svgr "1.6.0"
+    svgr "1.7.0"
 
 svgr@1.6.0:
   version "1.6.0"
@@ -7198,6 +7198,23 @@ svgr@1.6.0:
     mz "^2.6.0"
     output-file-sync "^2.0.0"
     prettier "^1.9.1"
+    recursive-readdir "^2.2.1"
+    svgo "^1.0.3"
+
+svgr@1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/svgr/-/svgr-1.7.0.tgz#1672d4e7c7149fa0a9f2c8833bed8abd4abbe029"
+  dependencies:
+    chalk "^2.1.0"
+    commander "^2.13.0"
+    glob "^7.1.2"
+    h2x-core "^0.1.9"
+    h2x-plugin-jsx "^0.1.9"
+    loader-utils "^1.1.0"
+    lodash "^4.17.4"
+    mz "^2.6.0"
+    output-file-sync "^2.0.0"
+    prettier "^1.10.2"
     recursive-readdir "^2.2.1"
     svgo "^1.0.3"
 
