@@ -7175,9 +7175,9 @@ svgo@^1.0.3:
     unquote "^1.1.0"
     util.promisify "~1.0.0"
 
-svgr.macro@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/svgr.macro/-/svgr.macro-1.0.1.tgz#2c6255e8137b1c41db388b9f939586d0f7b56356"
+svgr.macro@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/svgr.macro/-/svgr.macro-1.0.2.tgz#d797427771b8c07eed43c1a07f34d24168da4aaa"
   dependencies:
     babel-plugin-macros "2.0.0"
     babylon "6.18.0"
