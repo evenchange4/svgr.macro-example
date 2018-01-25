@@ -1039,7 +1039,7 @@ babel-plugin-jest-hoist@^22.1.0:
   version "22.1.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-22.1.0.tgz#c1281dd7887d77a1711dc760468c3b8285dde9ee"
 
-babel-plugin-macros@2.0.0:
+babel-plugin-macros@2.0.0, babel-plugin-macros@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-macros/-/babel-plugin-macros-2.0.0.tgz#fd3aee135f7dec0b82898b7c8f1aed6fa75f9af9"
   dependencies:
@@ -1139,10 +1139,6 @@ babel-types@^6.18.0, babel-types@^6.26.0:
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
 
-babylon@6.18.0, babylon@^6.18.0:
-  version "6.18.0"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
-
 babylon@7.0.0-beta.36:
   version "7.0.0-beta.36"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.36.tgz#3a3683ba6a9a1e02b0aa507c8e63435e39305b9e"
@@ -1150,6 +1146,10 @@ babylon@7.0.0-beta.36:
 babylon@7.0.0-beta.38:
   version "7.0.0-beta.38"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.38.tgz#9b3a33e571a47464a2d20cb9dd5a570f00e3f996"
+
+babylon@^6.18.0:
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
 balanced-match@^0.4.2:
   version "0.4.2"
@@ -3265,7 +3265,7 @@ glob-parent@^3.1.0:
     is-glob "^3.1.0"
     path-dirname "^1.0.0"
 
-glob@7.1.2, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
+glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
   dependencies:
@@ -7175,14 +7175,14 @@ svgo@^1.0.3:
     unquote "^1.1.0"
     util.promisify "~1.0.0"
 
-svgr.macro@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/svgr.macro/-/svgr.macro-1.0.3.tgz#04e36ff4075a2fce7bcc0e649b9ae54cf3539ce4"
+svgr.macro@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/svgr.macro/-/svgr.macro-1.0.4.tgz#de753a5c6957ef7bad0b34711c8f1c3bf2528cb6"
   dependencies:
-    babel-plugin-macros "2.0.0"
-    babylon "6.18.0"
-    glob "7.1.2"
-    svgr "1.7.0"
+    babel-plugin-macros "^2.0.0"
+    babylon "^6.18.0"
+    glob "^7.1.2"
+    svgr "^1.7.0"
 
 svgr@1.6.0:
   version "1.6.0"
@@ -7201,7 +7201,7 @@ svgr@1.6.0:
     recursive-readdir "^2.2.1"
     svgo "^1.0.3"
 
-svgr@1.7.0:
+svgr@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/svgr/-/svgr-1.7.0.tgz#1672d4e7c7149fa0a9f2c8833bed8abd4abbe029"
   dependencies:
